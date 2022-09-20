@@ -16,8 +16,12 @@ else{
 }
 for(let j=2;j<=10;j++)
   {
-  let answer==prime(j)
-    if(answer=true)
+
+
+
+  let answer=prime(j)
+    if(answer==true)
+
     {
       console.log(j,"is a prime number")
     }
