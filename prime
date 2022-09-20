@@ -1,5 +1,5 @@
 function prime (num){
-let fact=0
+let factor=0
 for(let i=1;i<=num;i++)
   {
     if(num%i==0){
@@ -16,12 +16,16 @@ else{
 }
 for(let j=2;j<=10;j++)
   {
+
+
+
   let answer=prime(j)
     if(answer==true)
+
     {
-      console.log(j,"is a prime")
+      console.log(j,"is a prime number")
     }
     else{
-       console.log(j,"is a not prime")
+       console.log(j,"is a not prime number")
     }
   }
